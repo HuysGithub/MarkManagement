@@ -1,7 +1,7 @@
-import customtkinter
+import tkinter as tk
 
 
-class AdminGui(customtkinter.CTk):
+class AdminGui(tk.TK):
     def __init__(self):
         super().__init__()
         self.title("Admin GUI")
